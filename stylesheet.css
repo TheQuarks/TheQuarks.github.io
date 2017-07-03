@@ -7,6 +7,13 @@
   main {
     flex: 1 0 auto;
   }
+ 
+.disclaimer{
+  padding: 1em;
+  margin: 0;
+  margin-top: -5px;
+  padding-top: 0;
+}
 
 .responsive-img-height {
   height: 100%;

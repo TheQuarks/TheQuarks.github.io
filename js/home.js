@@ -63,7 +63,7 @@ var dates = {
   }
 }
 
-$.get("/json/events.json", function(data) {
+$.get("json/events.json", function(data) {
   $(".result").html(data);
   for (var element in data) {
     day = new Date(element);

@@ -4,11 +4,5 @@
     "src": "influence.jpg",
     "price": "7",
     "descr": "The Quarks' first studio album"
-  },
-  "WhiteTshirt": {
-    "title": "White logo tshirt",
-    "src": "white-tshirt.jpg",
-    "price": "15",
-    "descr": "High quality white tshirt with our logo on the front."
   }
 }
