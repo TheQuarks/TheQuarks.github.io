@@ -37,6 +37,7 @@ $.get("json/shop.json", function(data) {
 
       </a>
     </div>
+    <div class="disclaimer">+ 3€ postage</div>
   </div>
 </div>`
     $("#shop").append(html);
