@@ -37,7 +37,6 @@ $.get("json/shop.json", function(data) {
 
       </a>
     </div>
-    <p class="disclaimer">postage not included</p>
   </div>
 </div>`
     $("#shop").append(html);
