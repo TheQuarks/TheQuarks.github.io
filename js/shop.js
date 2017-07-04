@@ -15,7 +15,7 @@ $.get("json/shop.json", function(data) {
     price = data[element]["price"];
     descr = data[element]["descr"];
     html = `
-<div class="col s12 m4">
+<div class="col s12 m6 l4">
   <div class="card">
     <div class="card-image">
       <img class="product-img" src="${src}">
