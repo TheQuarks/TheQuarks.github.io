@@ -25,17 +25,16 @@ $.get("json/shop.json", function(data) {
       <p>${descr}<p>
     </div>
     <div class="card-action valign-wrapper">
-      <a href="#"><span class="card-title black-text">${price}€</span></a>
+      <a href="#"><span class="card-title black-text">${price}€</span><span class="black-text disclaimer"> + postage</span></a>
       <a href="#">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="XXUMTBP4ENKPC">
-          <input type="image" src="https://thequarks.github.io/img/buynow.png" width="110" border="0" name="submit" alt="Buy Now!">
+          <input type="image" src="http://thequarks.github.io/img/buynow.png" border="0" width="110" name="submit" alt="PayPal – The safer, easier way to pay online!">
           <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
         </form>
       </a>
     </div>
-    <div class="disclaimer">+ 3€ postage</div>
   </div>
 </div>`
     $("#shop").append(html);
