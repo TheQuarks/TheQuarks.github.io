@@ -25,6 +25,14 @@
   display: -webkit-flex;
   display: flex;
   padding: 24px;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+.flex-shop {
+  display: -webkit-flex;
+  display: flex;
+  padding: 24px;
   -webkit-justify-content: space-between;
   justify-content: space-between;
 }

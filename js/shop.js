@@ -24,7 +24,7 @@ $.get("json/shop.json", function(data) {
       <span class="card-title">${title}</span>
       <p>${descr}<p>
     </div>
-    <div class="flex-horizontal">
+    <div class="flex-shop">
       <div class="flex-element"><span class="price black-text">${price}€</span><span class="black-text disclaimer"> + postage</span></div>
       <a class="btn waves-effect waves-light flex-element" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XXUMTBP4ENKPC">Buy now</a>
     </div>
