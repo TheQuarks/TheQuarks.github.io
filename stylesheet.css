@@ -17,6 +17,22 @@
   width: auto;
 }
 
+.price {
+  font-size: 18pt;
+  font-weight: 300;
+}
+.flex-horizontal {
+  display: -webkit-flex;
+  display: flex;
+  padding: 24px;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.flex-element {
+  flex:1;
+}
+
 .product-img {
   max-width: 20em;
   margin-left: auto;

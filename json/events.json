@@ -1,4 +1,9 @@
 {
+  "2017-07-16": {
+    "type": "Sales start",
+    "location": "Shop page",
+    "link": "shop.html"
+  },
   "2017-06-25": {
     "type": "New video",
     "location": "Youtube",

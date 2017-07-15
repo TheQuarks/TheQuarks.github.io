@@ -15,8 +15,8 @@ $.get("json/shop.json", function(data) {
     price = data[element]["price"];
     descr = data[element]["descr"];
     html = `
-<div class="col s12 m6 l4">
-  <div class="card">
+<div class="col s12 m6">
+  <div class="card hoverable">
     <div class="card-image">
       <img class="product-img" src="${src}">
     </div>
@@ -24,16 +24,9 @@ $.get("json/shop.json", function(data) {
       <span class="card-title">${title}</span>
       <p>${descr}<p>
     </div>
-    <div class="card-action valign-wrapper">
-      <a href="#"><span class="card-title black-text">${price}€</span><span class="black-text disclaimer"> + postage</span></a>
-      <a href="#">
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="XXUMTBP4ENKPC">
-          <input type="image" src="http://thequarks.github.io/img/buynow.png" border="0" width="110" name="submit" alt="PayPal – The safer, easier way to pay online!">
-          <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-        </form>
-      </a>
+    <div class="flex-horizontal">
+      <div class="flex-element"><span class="price black-text">${price}€</span><span class="black-text disclaimer"> + postage</span></div>
+      <a class="btn waves-effect waves-light flex-element" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XXUMTBP4ENKPC">Buy now</a>
     </div>
   </div>
 </div>`
