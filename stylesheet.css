@@ -38,7 +38,12 @@
 }
 
 .flex-element {
-  flex:1;
+  flex: 1;
+  margin-left: 1em;
+}
+
+.flex-element:first-child {
+  margin-left: 0;
 }
 
 .product-img {
