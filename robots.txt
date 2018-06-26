@@ -1,5 +1,6 @@
-User-agent: * 
+User-agent: *
 Disallow: /.git
 Disallow: /img
 Disallow: /js
 Disallow: /json
+Disallow: /components

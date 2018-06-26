@@ -5,6 +5,12 @@ var type;
 var place;
 var link;
 
+// Load header and footer from html files
+$(document).ready(function(){
+  $('header').load("components/big_header.html");
+  $('footer').load("components/footer.html");
+});
+
 //Initialize side nav
 $(".button-collapse").sideNav();
 
@@ -17,7 +23,7 @@ var dates = {
     //   a date object: returned without modification
     //  an array      : Interpreted as [year,month,day]. NOTE: month is 0-11.
     //   a number     : Interpreted as number of milliseconds
-    //                  since 1 Jan 1970 (a timestamp) 
+    //                  since 1 Jan 1970 (a timestamp)
     //   a string     : Any format supported by the javascript engine, like
     //                  "YYYY/MM/DD", "MM/DD/YYYY", "Jan 31 2009" etc.
     //  an object     : Interpreted as an object with year, month and date
