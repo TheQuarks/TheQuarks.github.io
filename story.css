@@ -1,0 +1,29 @@
+.text > p {
+  margin-bottom: 1em !important;
+}
+
+.text > ul {
+  list-style-type: none;
+  margin-bottom: 1em !important;
+}
+
+/* .text > ul > li {
+  text-indent: -1em;
+} */
+.text > ul > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.flindent > p {
+  text-indent: 2em;
+}
+
+.card-panel > h3 {
+    margin-top: 0;
+}
+
+.responsive-img-height {
+    height: 100%;
+    width: auto;
+  }

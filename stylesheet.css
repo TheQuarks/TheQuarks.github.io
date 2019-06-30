@@ -1,13 +1,13 @@
- body {
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
-  main {
+main {
     flex: 1 0 auto;
-  }
- 
+}
+
 .disclaimer{
   font-size: 8pt;
 }
@@ -52,29 +52,86 @@
   margin-right: auto;
 }
 
-#logo {
-  hight: auto;
+.bold {
+  font-weight: bold;
 }
 
+.justify {
+  text-align: justify;
+}
+
+.lyricBlock {
+	column-count: 2;
+	column-rule-style: solid;
+	column-rule-color: #ee6e73;
+	column-rule-width: 5px;
+	column-gap: 44px;
+}
+
+
 #main-header {
-    background-image: url("img/header.jpg");
+    background-image: url("img/header.png");
+    background-position: 50% 35%; 
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     width: 100%;
     margin-bottom: 1em;
 }
 #small-header {
-  background-image: url("img/header.jpg");
-  background-size: cover;
-  background-position: center;
   width: 100%;
   margin-bottom: 1em;
+}
+
+#icons :first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+#icons :last-child {
+  border-radius: 0 0 5px 5px ;
 }
 
 .btn {
   overflow: visible;
   padding-left: 5px;
   padding-right:5px;
+}
+
+.sidenav .collapsible-header {
+	padding-left: 32px !important;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 3em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;;
+  margin-right: 1em;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+}
+
+.fa-youtube {
+  background: #bb0000;
+}
+
+.fa-instagram {
+  background: #125688;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+}
+.fa-envelope-o {
+  background: #9e9e9e;
 }
 
 /* MED AND UP */
@@ -95,3 +152,4 @@
   #small-header {
     height: 9em;
   }
+}
