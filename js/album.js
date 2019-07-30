@@ -9,9 +9,6 @@ $(document).ready(function(){
   
 	  // init collapsible menu options (mobile)
 	  $('.collapsible').collapsible();
-	
-	  // init image viewers
-	  $('.materialboxed').materialbox();
 	});
 
 	$('footer').load("/components/footer.html");

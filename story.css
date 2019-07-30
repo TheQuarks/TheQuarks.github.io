@@ -1,8 +1,8 @@
-.text > p {
+.text>p {
   margin-bottom: 1em !important;
 }
 
-.text > ul {
+.text>ul {
   list-style-type: none;
   margin-bottom: 1em !important;
 }
@@ -10,20 +10,29 @@
 /* .text > ul > li {
   text-indent: -1em;
 } */
-.text > ul > li:before {
+.text>ul>li:before {
   content: "-";
   text-indent: -5px;
 }
 
-.flindent > p {
+.flindent>p {
   text-indent: 2em;
 }
 
-.card-panel > h3 {
-    margin-top: 0;
+.card-panel>h3 {
+  margin-top: 0;
 }
 
 .responsive-img-height {
-    height: 100%;
-    width: auto;
-  }
+  height: 100%;
+  width: auto;
+}
+
+.sidenav .collapsible-header {
+  padding-left: 32px !important;
+}
+
+.materialbox-caption {
+  line-height: 20px;
+
+}
