@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link rel="stylesheet" href="/stylesheet.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>The Quarks</title>
+
+  <!-- Standard metadata -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="referrer" content="always" />
+  <meta name="keywords" content="the quarks, band, grenoble, rock, independant" />
+  <meta name="description"
+    content="The Quarks are a five piece progressive/alternative rock band formed in 2015. Visit our site to get dates for upcoming events and to support us." />
+
+  <link rel="canonical" href="http://thequarks.ml/" />
+  <meta name="geo.placename" content="The Quarks" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Dublin Core -->
+
+  <meta name="dcterms.Identifier" content="http://thequarks.ml/" />
+  <meta name="dcterms.Format" content="text/html" />
+  <meta name="dcterms.Relation" content="The Quarks" />
+  <meta name="dcterms.Language" content="en" />
+  <meta name="dcterms.Publisher" content="The Quarks" />
+  <meta name="dcterms.Type" content="text/html" />
+  <meta name="dcterms.Coverage" content="http://thequarks.ml/" />
+  <meta name="dcterms.Rights" content="Copyright &copy;2017 The Quarks." />
+  <meta name="dcterms.Title" content="The Quarks" />
+  <meta name="dcterms.Creator" content="Dylan Robins" />
+  <meta name="dcterms.Subject" content="the quarks, band, grenoble, rock, independant" />
+  <meta name="dcterms.Contributor" content="The Quarks" />
+
+  <meta name="dcterms.Description"
+    content="The Quarks are a five piece progressive/alternative rock band formed in 2015. Visit our site to get dates for upcoming events and to support us." />
+
+  <!-- Facebook OpenGraph -->
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_gb" />
+  <meta property="og:url" content="http://thequarks.ml/" />
+  <meta property="og:title" content="The Quarks" />
+  <meta property="og:description"
+    content="The Quarks are a five piece progressive/alternative rock band formed in 2015. Visit our site to get dates for upcoming events and to support us." />
+  <meta property="og:image" content="http://thequarks.ml/img/header.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="600" />
+  <meta property="og:site_name" content="The Quarks" />
+  <meta property="og:see_also" content="https://www.facebook.com/TheQuarksMusic" />
+  <meta property="og:see_also" content="https://www.youtube.com/user/UC9H3NbAHvkjJzqv2eLRjKvg" />
+
+  <!-- Twitter Card -->
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The Quarks" />
+  <meta name="twitter:description"
+    content="The Quarks are a five piece progressive/alternative rock band formed in 2015. Visit our site to get dates for upcoming events and to support us." />
+  <meta name="twitter:image" content="http://thequarks.ml/img/header.jpg" />
+
+  <link type="text/plain" rel="author" href="/humans.txt" />
+
+  <!-- metadata tags shamelessly copied from Royal Blood's website, credits to them -->
+
+</head>
+
+<body class="grey lighten-4">
+  <header></header>
+
+  <main class="container">
+    <!-- PAGE PRINCIPALE -->
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Press Kits</span>
+            <p>Don't hesitate to send us a message, we'd love to hear from you!</p>
+          </div>
+          <div class="card-action flex-horizontal">
+            <a class="btn red darken-3 flex-element waves-effect waves-light" download
+              href="epk.pdf">Electronic Press Kit (French)</a>
+            <a class="btn red darken-3 flex-element waves-effect waves-light" download
+              href="images.zip">Photo zip archive</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer red darken-3"></footer>
+
+  <!--Import jQuery before materialize.js-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script>
+  $(document).ready(function(){
+	$('header').load("/components/small_header.html", function(){
+	  // init sidenav
+	  $('.sidenav').sidenav();
+  
+	  // init dropdown menu options (desktop)
+		  $('.dropdown-trigger').dropdown();
+  
+	  // init collapsible menu options (mobile)
+	  $('.collapsible').collapsible();
+	});
+	$('footer').load("/components/footer.html");
+  });
+  </script>
+</body>
+
+</html>
+
+</html>
